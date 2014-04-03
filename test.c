@@ -7,9 +7,13 @@ void func(const char *a) {
 }
 
 int main(int argc, char *argv[]) {
-
+	if (argc != 3) {
+		printf("This program requires 2 arguments.\n");
+		printf("./executable <string> <iterations>\n");
+		return 0;
+	}
 	int i;
-	for (i = 0; i < 1000000; ++i) {
+	for (i = 0; i < atoi(argv[2]); ++i) {
 		func(argv[1]);
 	}
 
