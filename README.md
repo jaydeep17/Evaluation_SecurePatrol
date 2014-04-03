@@ -28,6 +28,6 @@ How to test:
   
 3) &nbsp;`time` program is used to compute the time taken to execute each executable
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`time ./gccProtector`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`time ./gccProtector someText 1000`
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`time ./securePatrol`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`time ./securePatrol someText 1000`
